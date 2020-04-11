@@ -1,0 +1,67 @@
+﻿table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 100%
+}
+
+table thead td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+}
+
+.thsn {
+    width: 10%;
+}
+
+.thpn {
+    width: 20%;
+}
+
+.thdes {
+    width: 50%;
+}
+
+.thqty {
+    width: 10%;
+}
+
+.thttl {
+    width: 10%;
+}
+
+table td {
+    border-left: 1px solid #000;
+    padding: 15px
+}
+
+.sn {
+    vertical-align: top;
+    text-align: center;
+    width: 5%;
+}
+
+.pn {
+    vertical-align: top;
+    text-align: left;
+    width: 10%;
+}
+
+.des {
+    vertical-align: top;
+    text-align: left;
+    width: 10%;
+}
+
+.qty {
+    vertical-align: top;
+    text-align: center;
+    width: 5%;
+}
+
+.ttl {
+    vertical-align: top;
+    text-align: center;
+    width: 5%;
+}
