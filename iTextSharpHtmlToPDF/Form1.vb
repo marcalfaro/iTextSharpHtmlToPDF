@@ -1,15 +1,11 @@
 ﻿Option Explicit On
 
+'Install 2 NuGet packages iTextSharp and itextsharp.xmlworker and use the following code:
+
 Imports System.IO
 Imports iTextSharp.text
-Imports iTextSharp.text.html.simpleparser
 Imports iTextSharp.text.pdf
 Imports iTextSharp.tool.xml
-Imports iTextSharp.tool.xml.html
-Imports iTextSharp.tool.xml.parser
-Imports iTextSharp.tool.xml.pipeline.css
-Imports iTextSharp.tool.xml.pipeline.end
-Imports iTextSharp.tool.xml.pipeline.html
 
 Public Class Form1
 
@@ -149,6 +145,10 @@ Public Class Form1
         End Try
 
 #End Region
+
+    End Sub
+
+    Private Sub wb_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles wb.DocumentCompleted
 
     End Sub
 
